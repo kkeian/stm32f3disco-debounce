@@ -45,7 +45,11 @@ Firmware uses:
 ## Demo
 
 
-https://github.com/user-attachments/assets/9d6d01ce-c68f-43dd-9083-4ec460ef1c86
+
+
+https://github.com/user-attachments/assets/fdd737ad-1a36-4bde-a8ec-02d221c9eba8
+
+
 
 
 
