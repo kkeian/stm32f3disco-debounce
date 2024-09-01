@@ -91,8 +91,6 @@ int main(void)
   SystemClock_Config();
 
   /* USER CODE BEGIN SysInit */
-//  __HAL_RCC_GPIOA_CLK_ENABLE();
-//  __HAL_RCC_GPIOE_CLK_ENABLE();
 
   /* USER CODE END SysInit */
 
@@ -102,35 +100,7 @@ int main(void)
   MX_SPI1_Init();
   MX_USB_PCD_Init();
   /* USER CODE BEGIN 2 */
-  /* USER Button */
-//  GPIO_InitStruct.Pin = GPIO_PIN_0;
-//  GPIO_InitStruct.Mode = GPIO_MODE_IT_RISING; // trigger on rising edge (low to high V)
-//  GPIO_InitStruct.Pull = GPIO_PULLDOWN; // default in pull-down state (input tied to resistor which is tied to GND)
-//  HAL_GPIO_Init(GPIOA, &GPIO_InitStruct);
-//
-//  /* random pin 1 to end USER btton triggered ISR */
-//  GPIO_InitStruct.Pin = GPIO_PIN_1;
-//  GPIO_InitStruct.Mode = GPIO_MODE_IT_FALLING; // trigger on falling edge (high to low V)
-//  GPIO_InitStruct.Pull = GPIO_PULLUP; // default input tied to VDD
-//  HAL_GPIO_Init(GPIOA, &GPIO_InitStruct);
-//
-//  /* LD9 blue led */
-//  GPIO_InitStruct.Pin = GPIO_PIN_12;
-//  GPIO_InitStruct.Mode = GPIO_MODE_OUTPUT_PP;
-//  GPIO_InitStruct.Pull = GPIO_NOPULL;
-//  GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_LOW;
-//  HAL_GPIO_Init(GPIOE, &GPIO_InitStruct);
-//
-//  /* ensure LD9 starts in off state */
-//  HAL_GPIO_WritePin(GPIOE, GPIO_PIN_12, GPIO_PIN_RESET);
-//
-//  /* init EXTIs */
-//  HAL_NVIC_SetPriority(EXTI0_IRQn, 0x1, 0x0);
-//  HAL_NVIC_EnableIRQ(EXTI0_IRQn);
-//
-//  HAL_NVIC_SetPriority(EXTI1_IRQn, 0x0, 0x0);
-//  HAL_NVIC_EnableIRQ(EXTI1_IRQn);
-
+ 
   /* USER CODE END 2 */
 
   /* Infinite loop */
