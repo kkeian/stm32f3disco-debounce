@@ -43,15 +43,7 @@ Firmware uses:
 - an internal pull-up resistor for Pin 1 on GPIO A (PA1 GPIO pin header).
 
 ## Demo
-
-
-
-
-https://github.com/user-attachments/assets/fdd737ad-1a36-4bde-a8ec-02d221c9eba8
-
-
-
-
+[![](https://img.youtube.com/vi/t1ZHl23sQMs/0.jpg)](https://www.youtube.com/watch?v=t1ZHl23sQMs)
 
 ## Source Files
 - interrupts.ioc - STM32CubeIDE generated file with configuration parameters for the STM32F3-Disco board
